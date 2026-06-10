@@ -23,9 +23,9 @@ Plik CSV nie jest częścią repozytorium — instrukcja pobrania w sekcji [Jak 
 
 ## 3. EDA — najważniejsze obserwacje
 
-![Analiza zmiennych numerycznych](wykresy/analiza_numeryczna.png)
+![Analiza zmiennych numerycznych](charts/analiza_numeryczna.png)
 
-![Analiza zmiennych kategorycznych](wykresy/analiza_kategoryczna.png)
+![Analiza zmiennych kategorycznych](charts/analiza_kategoryczna.png)
 
 - **`poutcome` = success to najsilniejszy pojedynczy predyktor** — klienci, którzy kupili w poprzedniej kampanii, konwertują w 65% przypadków (≈ 6× średnia).
 - **Wskaźniki makroekonomiczne mają najsilniejszą realną korelację z celem** (`nr.employed` −0.35, `euribor3m` −0.31, `emp.var.rate` −0.30) — gorsza koniunktura sprzyja lokatom. Jednocześnie są silnie współliniowe między sobą (0.91–0.97).
@@ -67,7 +67,7 @@ Plik CSV nie jest częścią repozytorium — instrukcja pobrania w sekcji [Jak 
 | Keras MLP | 0.500 | 0.676 | 0.468 | 0.800 | **0.682** | 0.348 | 0.167 |
 | KNN | 0.500 | 0.647 | 0.448 | 0.781 | 0.667 | 0.307 | 0.161 |
 
-![Porównanie modeli na zbiorze testowym](wykresy/analiza_porownawcza_modele.png)
+![Porównanie modeli na zbiorze testowym](charts/analiza_porownawcza_modele.png)
 
 **Najlepsze hiperparametry:**
 
